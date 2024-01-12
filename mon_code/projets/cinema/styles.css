@@ -1,0 +1,21 @@
+body {
+    background-image: url('../../assets/streaming.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff; /* Couleur du texte pour assurer la lisibilité sur l'image de fond */
+}
+
+#filmCarousel{
+
+    margin-top: 20%;
+}
+
+img{
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+
+}

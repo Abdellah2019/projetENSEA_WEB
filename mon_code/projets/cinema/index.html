@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derniers Films</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Derniers Films</a>
+</nav>
+
+<!-- Slider pour les 5 meilleurs films -->
+<div id="filmCarousel" class="carousel slide mx-auto d-flex justify-content-center align-items-center" data-ride="carousel" style="max-width: 800px;">
+
+    <!--<center><h3 style="padding-top:20%">TOP 3 </h3><center>-->
+    <div class="carousel-inner">
+        <div class="carousel-item active col-md-4">
+            <img src="https://image.over-blog.com/KUnY6F4g927eIwpcy_PN3_YVr8U=/filters:no_upscale()/image%2F0902697%2F20230722%2Fob_c74595_oppenheimer-affiche.jpg" class="d-block w-100" alt="Slide 1">
+            <!-- Contenu de la première slide -->
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Numero 1</h5>
+                <p>Oppenheimer</p>
+            </div>
+        </div>
+
+
+        <div class="carousel-item col-md-4">
+            <img src="https://www.movieandgame.fr/wp-content/uploads/2023/01/Babylon-20222-Intro-scaled.jpg" class="d-block w-100" alt="Slide 2">
+            <!-- Contenu de la deuxième slide -->
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Numero 2</h5>
+                <p>Babylon</p>
+            </div>
+        </div>
+
+
+        <div class="carousel-item col-md-4">
+            <img src="https://fr.web.img4.acsta.net/pictures/23/06/14/10/15/2288359.jpg" class="d-block w-100" alt="Slide 2">
+            <!-- Contenu de la deuxième slide -->
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Numero 3</h5>
+                <p></p>
+            </div>
+        </div>
+        <!-- Ajouter les autres slides pour les 5 meilleurs films -->
+    </div>
+    <a class="carousel-control-prev" href="#filmCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+    </a>
+    <a class="carousel-control-next" href="#filmCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+    </a>
+</div>
+
+<!-- Contenu principal avec les autres cartes -->
+<div class="container mt-4">
+    <center><h1>TOP 2023</h1><center>
+    <div class="row">
+        <!-- Ajouter ici les cartes pour les autres films -->
+
+         <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://fr.web.img6.acsta.net/pictures/23/01/10/09/11/3053678.jpg" class="card-img-top" alt="Project 1 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Aftersun (2022)</h5>
+                    <p class="card-text">Plateforme de streaming de films.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://fr.web.img6.acsta.net/pictures/23/02/16/11/33/5603857.jpg" class="card-img-top" alt="Project 2 Image">
+                <div class="card-body">
+                    <h5 class="card-title">EcoSolutions</h5>
+                    <p class="card-text">Site web d'une entreprise écologique.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://fr.web.img5.acsta.net/pictures/23/07/11/13/48/5180485.jpg" class="card-img-top" alt="Project 3 Image">
+                <div class="card-body">
+                    <h5 class="card-title">ArtGalleryHub</h5>
+                    <p class="card-text">Plateforme d'exposition d'œuvres </p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
